@@ -1,0 +1,36 @@
+#---------------------------------------------.rjust()----------------------------------------------------------
+'''With this technique, a string in a field with a given width is justified to the right. Up to the total width is reached, 
+    it pads the string on the left side with the supplied fill character (or space by default)
+
+   SYNTAX: stringname.rjust('formatted length of string', 'character to place, by-default is space')'''
+
+
+s = 'hey hasaan'
+print(s.rjust(20))
+print(s.rjust(20,'*'))
+print()
+
+
+#---------------------------------------------.ljust()-----------------------------------------------------------
+'''With this technique, a string in a field with a given width is justified to the left. Up to the total width is reached, 
+    it pads the string on the right side with the supplied fill character (or space by default)
+
+   SYNTAX: stringname.ljust('formatted length of string', 'character to place, by-default is space')'''
+
+
+s = 'hey hasaan'
+print(s.ljust(20))
+print(s.ljust(20,'*'))
+print()
+
+
+#--------------------------------------------.center()-----------------------------------------------------------
+'''With this technique, a string in a field with a given width is justified to the center. Up to the total width is reached, 
+    it pads the string on the right and left side with the supplied fill character (or space by default)
+
+   SYNTAX: stringname.center'formatted length of string', 'character to place, by-default is space')'''
+
+
+s = 'hey hasaan'
+print(s.center(20))
+print(s.center(20,'*'))
